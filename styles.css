@@ -4,6 +4,11 @@ GLOABAL
 * {
   box-sizing: border-box;
 }
+body {
+  background-image: url('./images/possm-hero.jpg');
+  height: 200vh;
+  background-repeat: no-repeat;
+}
 a {
   text-decoration: none;
 }
@@ -16,6 +21,9 @@ Navebar
 *******************************/
 .grid-container {
   border: 3px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
 }
 /*******************************
 Social
