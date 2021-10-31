@@ -5,12 +5,16 @@ GLOABAL
   box-sizing: border-box;
 }
 body {
-  /* background-image: url('./images/possm-hero.jpg'); */
+  background-image: url('./images/possm-hero.jpg');
   height: 200vh;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
+
 a {
   text-decoration: none;
+  color: white;
 }
 li {
   list-style: none;
@@ -32,7 +36,10 @@ Navebar
   align-items: center;
 }
 .nav-list li {
-  margin: 0 1.25rem;
+  margin: 0 2rem;
+}
+.nav-item {
+  color: red;
 }
 /*******************************
 Social
@@ -44,6 +51,6 @@ Social
 }
 .social-list li {
   display: flex;
-  justify-: space-between;
+  margin: 0 2rem;
   align-items: center;
 }
